@@ -15,7 +15,7 @@ class BotDaemon(Daemon):
         Create a Custom Tweepy stream listener and start listening for Tweets tagged with @IsThisTrueBot
         """
         stream = tweepy.Stream(auth=twitter.auth, listener=StreamListener())
-        stream.filter(track=['@IsThisTrueBot'], async=True)
+        stream.filter(track=['@IsThisTrueBot #IsThisTrue'], async=True)
 
 
 if __name__ == "__main__":
