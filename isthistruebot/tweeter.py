@@ -59,9 +59,9 @@ def genererate_response(answer=0):
         text = "I found this on {s}. I think it might help.".format(
             s=answer["source"]
         )
-        text += " They rated the following as \"{a}\". #FactCheck {l}".format(
-            a=answer["answer"],
-            l=answer["link"]
+        text += " They rated the following as \"{answer}\". #FactCheck {link}".format(
+            answer=answer["answer"],
+            link=answer["link"]
         )
 
     return text
