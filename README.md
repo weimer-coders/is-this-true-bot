@@ -1,7 +1,8 @@
 # Is This True Bot
 A simple bot that responds to tweets with potential fact checks.
 
-## Getting Started
+
+## Installing a Development Copy
 
 Create a virtualenv to store the codebase.
 ```bash
@@ -34,3 +35,6 @@ Start the stream listener
 ```bash
 $ python isthistruebot/bot.py
 ```
+
+---
+Made by [Andrew Briz](https://github.com/brizandrew) and [Caitlin Ostroff](https://github.com/ceostroff)
