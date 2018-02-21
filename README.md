@@ -37,7 +37,6 @@ $ python isthistruebot/bot.py start
 ```
 
 You can also stop or restart the stream listener
-Start the stream listener
 ```bash
 $ python isthistruebot/bot.py stop
 $ python isthistruebot/bot.py restart
