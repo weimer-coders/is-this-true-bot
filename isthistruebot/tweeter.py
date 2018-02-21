@@ -47,12 +47,12 @@ def genererate_response(answer=0):
     """
     # Error Text
     if answer == 0:
-        text = "Hmm. I can't seem to find a link. \u1F914"
+        text = "Hmm. I can't seem to find a link." + u"\U0001F914"
         text += " Are you sure you're replying to a Tweet with a link?"
     # Failure Text
     elif answer is None:
         text = "Sorry. I couldn't find anything in any of my sources."
-        text += " I'm constantly learning though, so try again another time! \u1F605 #JustBotProbz"
+        text += " I'm constantly learning though, so try again another time! " + u"\U0001F605 " + "#JustBotProbz"
     # Success Text
     else:
         # text = "I found this on" + answer["source"] + ". I think it might help."
