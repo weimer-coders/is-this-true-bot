@@ -1,5 +1,5 @@
 # Is This True Bot
-A simple bot that responds to tweets with potential fact checks.
+A simple bot that responds to Tweets with potential fact checks.
 
 
 ## Installing a Development Copy
