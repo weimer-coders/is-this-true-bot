@@ -1,5 +1,5 @@
 # Is This True Bot
-<<<<<<< HEAD
+
 This is simple bot that responds to Tweets with potential fact checks. A person must reply to a Tweet with a link, tagging [@IsThisTrueBot](www.twitter.com/IsThisTrueBot) in order to return as to whether a fact-check that matches exists, if there isn't one or if not link was found.
 
 This bot is still in the early stages of development. Currently, it only searches PolitiFact for fact-checks. We plan to expand the evaluation to pull in different sources, including Snopes and Google fact-check supporting websites. The longer-term goal is to use machine learning to expand our evaluation of sources.
